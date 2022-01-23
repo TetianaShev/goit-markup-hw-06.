@@ -708,7 +708,7 @@ box-shadow 250ms var(--bezier-timing);
 }
 .footer-container{
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }
 .footer-logo{
     font-family: Raleway,sans-serif;
