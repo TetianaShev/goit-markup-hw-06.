@@ -708,7 +708,7 @@ box-shadow 250ms var(--bezier-timing);
 }
 .footer-container{
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 .footer-logo{
     font-family: Raleway,sans-serif;
@@ -745,6 +745,7 @@ box-shadow 250ms var(--bezier-timing);
     color: var(--accent-color);
 }
 .footer-address{
+    flex-grow: 1;
     display: inline-block;
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
@@ -1046,7 +1047,6 @@ box-shadow 250ms var(--bezier-timing);
 }
 .form-message{
     display: block;
-    margin-bottom: 10px;
     width: 100%;
     height: 120px;
     resize: none;
